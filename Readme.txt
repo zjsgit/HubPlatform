@@ -11,11 +11,11 @@ and edge after filtering.
 
 There is a example.
 
-before filtering:			      after filtering:
-protein1	protein2		      protein1	protein2
-protein3	protein5        	protein3	protein5
-protein1	protein2        	protein9	protein5
-protein2	protein1        	protein4	protein8
+before filtering:     after filtering:
+protein1	protein2    protein1	protein2
+protein3	protein5    protein3	protein5
+protein1	protein2    protein9	protein5
+protein2	protein1    protein4	protein8
 protein9	protein5        
 protein1	protein2        
 protein4	protein8            
