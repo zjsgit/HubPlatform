@@ -56,9 +56,7 @@ note you: if the files format is wrong, you can't use the platform. Please confi
 Visualization Section:
 
 first: the web can provide the all PPI network's visulation. You can also decide the number of the top protein nodes to visualize. Besides, there are several Centrality Method algorithms which you can select to get top protein nodes.
-
 second: the web can support us to view of the top protein nodes network in different time. On the other hand, you can also select network layout (the default is circle layout). 
-
 third: the web can offer the visulation of the top protein nodes network in which protein nodes in different subcellular location will display different colors.
 
 
