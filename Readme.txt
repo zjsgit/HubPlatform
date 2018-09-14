@@ -1,13 +1,10 @@
 # HubPlatform
 
-This web platform aims to predict key proteins from PPI data, subcellular location information
-data and gen expression data according to constructing spatiotemporal dynamic network.
+This web platform aims to predict key proteins from PPI data, subcellular location information data and gene expression data according to constructing spatiotemporal dynamic network.
 
-This web application include four section, Filter, Submit and Visualization.
+This web application include three section, Filter, Submit and Visualization.
 
-Filter Section: This section's aim is to filter Protein Protein Interaction. That is to say, delete 
-the edge that appears more than twice. At the same time, it can tell you the number of protein node
-and edge after filtering.
+Filter Section: This section's aim is to filter Protein Protein Interaction. That is to say, delete the edge that appears more than twice. At the same time, it can tell you the number of protein node and edge after filtering.
 
 There is a example.
 
@@ -22,8 +19,7 @@ protein4	protein8
 
 
 Submit Section:
-In order to construct spatiotemporal dynamic network, you need to submit PPI data, subcellular location 
-information data and gen expression data. The data format of the three files is as follows.
+In order to construct spatiotemporal dynamic network, you need to submit PPI data, subcellular location  information data and gene expression data. The data format of the three files is as follows.
 
 PPI data:
 protein1	 protein2
@@ -31,7 +27,7 @@ protein3	 protein5
 protein7	 protein5
 protein4	 protein6
 
-gen expression data: the first column is protein name, others are gen expression value at 12 time. 
+gene expression data: the first column is protein name, others are gene expression value at 12 time. 
 protein1	0.055618618	0.073988438	0.120317824	0.055118114	0.030303033	0.026143791	0.013001083	0.09195403	0.088377729	0.062780268	0.079908676	0.06395939
 protein2	1.994324565	1.805780292	1.173666358	1.147356629	0.940516353	0.930283248	0.83856988	1.067920566	3.21670723	1.644618869	2.239726067	2.690355301
 protein3	22.51645851	11.07745647	19.84449577	17.49943733	17.20314407	18.38671112	19.45720482	23.99895477	50.00363159	33.29484177	36.15296936	24.93908501
@@ -61,11 +57,11 @@ note you: if the files format is wrong, you can't use the platform. Please confi
 
 Visualization Section:
 
-first: the web can provide the all PPI network's visulation. You can also decide the number of the top protein nodes to visualize. Besides, there are several Centrality Method algorithms which you can select to get top protein nodes.
+Static network: the web can provide the all PPI network's visulation. You can also decide the number of the top protein nodes to visualize. Besides, there are several Centrality Method algorithms which you can select to get top protein nodes.
 
-second: the web can support us to view of the top protein nodes network in different time. On the other hand, you can also select network layout (the default is circle layout). 
+Temporal dynamic netowrk: the web can support us to view of the top protein nodes network in different time. On the other hand, you can also select network layout (the default is circle layout). 
 
-third: the web can offer the visulation of the top protein nodes network in which protein nodes in different subcellular location will display different colors.
+Spatial dynamic network: the web can offer the visulation of the top protein nodes network in which protein nodes in different subcellular location will display different colors.
 
 
 
